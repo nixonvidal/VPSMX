@@ -172,10 +172,10 @@ install_paketes
 mkdir /etc/VPS-MX >/dev/null 2>&1
 
 cd /etc/VPS-MX
-wget https://github.com/nixonvidal/VPSMX/blob/06afc004b99a3283884f5403b0ae1711763c06ed/VPS-MX.tar.xz >/dev/null 2>&1
-tar -xf VPS-MX.tar.xz >/dev/null 2>&1
-chmod +x VPS-MX.tar.xz >/dev/null 2>&1
-rm -rf VPS-MX.tar.xz
+wget https://github.com/nixonvidal/VPSMX/blob/f6c6d68855442253c69895b705b0b116f3804435/VPS-MX.zip >/dev/null 2>&1
+unzip -xf VPS-MX.zip >/dev/null 2>&1
+chmod +x VPS-MX.zip >/dev/null 2>&1
+rm -rf VPS-MX.zip
 cd
 chmod -R 755 /etc/VPS-MX
 rm -rf /etc/VPS-MX/MEUIPvps
